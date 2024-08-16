@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HHTML INPUT</title>
+</head>
+<body>
+    <form action="">
+        <input type="text">
+        <input type="submit">
+        <input type="file">
+        <input type="date">
+        <input type="radio">
+        <input type="range">
+    </form>
+    <form method="get">
+        <label>
+            Name:
+            <input name="submitted-name" autocomplete="name" />
+        </label>
+        <button>Save</button>
+    <form method="post">
+        <label>Name:
+                <input name="submitted-name" autocomplete="name" />        
+        </label>
+        <button>Save</button>
+    </form>
+    <form method="post">
+        <fieldset>
+            <legend>
+              Do you agree on the term?
+            </legend>
+            <label><input type="radio" name="radio" value="yes" />Yes</label>
+            <label><input type="radio" name="radio" value="no">No</label>
+        </fieldset>
+    </form>
+</body>
+</html>
